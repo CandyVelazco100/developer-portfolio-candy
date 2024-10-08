@@ -74,6 +74,7 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
+import nodejs from '../assets/svg/skills/nodejs.svg'
 
 
 export const skillsImage = (skill) => {
@@ -183,6 +184,8 @@ export const skillsImage = (skill) => {
             return nginx;
         case 'numpy':
             return numpy;
+        case 'nodejs':
+            return nodejs;
         case 'opencv':
             return opencv;
         case 'premiere pro':

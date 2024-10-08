@@ -96,7 +96,7 @@
   width: 350px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   font-family: "var(--primaryFont)", sans-serif;
 }
 

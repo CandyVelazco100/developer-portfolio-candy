@@ -32,6 +32,7 @@
     flex-direction: row;
     align-items:flex-start;
     justify-content: flex-start;
+    font-family: var(--primaryFont);
     width: 90%;
     height: 140px;
     padding: 1.5rem;

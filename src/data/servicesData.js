@@ -2,7 +2,7 @@
 import { BiShoppingBag, BiPencil } from "react-icons/bi";
 import { BsCodeSlash, BsClipboardData } from "react-icons/bs";
 import { AiOutlineMail, AiFillAudio } from "react-icons/ai";
-import { FaInternetExplorer,  FaChalkboardTeacher, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper } from "react-icons/fa";
+import { FaInternetExplorer,  FaChalkboardTeacher, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper, FaDesktop, FaMobile, FaPaintBrush, FaUser } from "react-icons/fa";
 
  
 
@@ -13,67 +13,40 @@ export const servicesData = [
     //     icon: <BiShoppingBag/>
     // },
     {
-        id: 2,
+        id: 1,
         title: 'Content Writing',
         icon: <BiPencil /> 
     },
     {
-        id: 3,
-        title: 'Email Marketing',
-        icon: <AiOutlineMail />
-    },
-    // {
-    //     id: 4,
-    //     title: 'Internet Research',
-    //     icon: <FaInternetExplorer />
-    // },
-    // {
-    //     id: 5,
-    //     title: 'Tutoring',
-    //     icon: <FaChalkboardTeacher />
-    // },
-
-    {
-        id: 6,
+        id: 2,
         title: 'Web Design',
         icon: <BsCodeSlash />
     },
     {
-        id: 7,
-        title: 'Photography',
-        icon: <FaCameraRetro />
-    },
-    // {
-    //     id: 8,
-    //     title: 'Pinterest Virtual Assistant',
-    //     icon: <FaPinterest />
-    // }, 
-    {
-        id: 9,
+        id: 3,
         title: 'Video Editing',
         icon: <FaVideo />
     },
-    // {
-    //     id: 10,
-    //     title: 'Data Entry', 
-    //     icon: <BsClipboardData />
-    // },
     {
-        id: 11,
-        title: 'Ebook Writing',
-        icon: <FaTabletAlt />
+        id: 4,
+        title: 'Web Development',
+        icon: <FaDesktop />
     },
-    // {
-    //     id: 12,
-    //     title: 'Audio Transcription',
-    //     icon: <AiFillAudio />
-    // },
     {
-        id: 13,
-        title: 'Blog Posting',
-        icon: <FaRegNewspaper />
+        id: 5,
+        title: 'Mobile Development',
+        icon: <FaMobile />
     },
-
+    {
+        id: 6,
+        title: 'UX/UI Design',
+        icon: <FaPaintBrush />
+    },
+    {
+        id: 7,
+        title: 'Virtual Assistant',
+        icon: <FaUser />
+    },
 ]
 
 // Uncomment your required service.

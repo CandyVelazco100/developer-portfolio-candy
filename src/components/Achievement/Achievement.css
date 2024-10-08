@@ -1,5 +1,5 @@
 .achievement {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -59,8 +59,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    width: 65%;
-   
+    width: 80%;
 }
 
 .achievecard-details2 {

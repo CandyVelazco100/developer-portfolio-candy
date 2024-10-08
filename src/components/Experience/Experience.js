@@ -12,11 +12,11 @@ function Experience() {
     const { theme } = useContext(ThemeContext);
     return (
         <div className="experience" id="experience" style={{backgroundColor: theme.secondary}}> 
-             <div className="experience-body">
-                 <div className="experience-image">
-                     <img src={theme.expimg} alt="" />
-                 </div>
-                 <div className="experience-description">
+            <div className="experience-body">
+                <div className="experience-image">
+                    <img src={theme.expimg} alt="" />
+                </div>
+                <div className="experience-description">
                     <h1 style={{color:theme.primary}}>Experience</h1>
                     {experienceData.map(exp =>(
                         <ExperienceCard 
@@ -27,8 +27,8 @@ function Experience() {
                             startYear={exp.startYear}
                             endYear={exp.endYear}/>
                     ))}
-                 </div>
-             </div>
+                </div>
+            </div>
         </div>
     )
 }

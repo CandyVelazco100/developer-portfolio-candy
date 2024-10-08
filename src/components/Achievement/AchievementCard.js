@@ -24,8 +24,8 @@ function AchievementCard({id, title, details, date, field, image}) {
     const classes = useStyles();
     return (
         <Fade bottom>
-           <div key={id} className={`achievement-card ${classes.achievementCard}`}>
-               <div className="achievecard-content">
+        <div key={id} className={`achievement-card ${classes.achievementCard}`}>
+            <div className="achievecard-content">
                     <div className="achievecard-details1">
                         <h2 style={{color: theme.tertiary}}>{title}</h2>
                         <p style={{color: theme.tertiary80}}>{details}</p>
@@ -41,9 +41,8 @@ function AchievementCard({id, title, details, date, field, image}) {
                 <div className="achievecard-imgcontainer">
                     <img src={image} alt="" />
                 </div>
-           </div>
-        </Fade>
-        
+        </div>
+    </Fade>     
     )
 }
 

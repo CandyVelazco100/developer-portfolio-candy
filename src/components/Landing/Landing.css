@@ -16,7 +16,7 @@
 .landing--img {
   --img-size: 400px;
   position: absolute;
-  left: 35%;
+  left: 35%; 
   transform: translateX(-50%);
   width: var(--img-size);
   height: var(--img-size);
@@ -50,6 +50,7 @@
 
 .landing--social:hover {
   transform: scale(1.2);
+  box-shadow: 10px 10px 2px 1px #212121b3;
 }
 
 .landing--container-right {

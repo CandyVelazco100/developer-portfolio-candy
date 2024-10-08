@@ -9,13 +9,21 @@ import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
 import {
-    FaTwitter,
     FaLinkedin,
     FaGithub,
-    FaYoutube,
-    FaBlogger,
+    FaBehance,
+    FaDribbble,
 } from 'react-icons/fa';
 
+/**
+ * The Landing component.
+ *
+ * This component renders the landing page, which includes social links, an image
+ * of the user, and a button to download the user's resume and a button to
+ * contact the user.
+ *
+ * @return {ReactElement} The Landing component.
+ */
 function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
 
@@ -101,42 +109,29 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.twitter && (
+                        {socialsData.behance && (
                             <a
-                                href={socialsData.twitter}
+                                href={socialsData.behance}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <FaBehance
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
                                     aria-label='Twitter'
                                 />
                             </a>
                         )}
-                        {socialsData.youtube && (
+                        {socialsData.Dribble && (
                             <a
-                                href={socialsData.youtube}
+                                href={socialsData.Dribble}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaYoutube
+                                <FaDribbble
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
                                     aria-label='YouTube'
-                                />
-                            </a>
-                        )}
-                        {socialsData.blogger && (
-                            <a
-                                href={socialsData.blogger}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaBlogger
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
                                 />
                             </a>
                         )}

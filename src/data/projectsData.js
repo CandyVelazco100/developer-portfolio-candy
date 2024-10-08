@@ -1,85 +1,84 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
-import four from '../assets/svg/projects/four.svg'
-import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import eight from '../assets/svg/projects/eight.svg'
+import qr from '../assets/svg/projects/qr.svg'
+import tasks from '../assets/svg/projects/tasks.svg'
+import bookapp from '../assets/svg/projects/bookapp.svg'
+import weather from '../assets/svg/projects/weatherThunder.svg'
+import password from '../assets/svg/projects/password.svg'
+import burger from '../assets/svg/projects/burger.svg'
+import music from '../assets/svg/projects/music.svg'
 
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Employee Management',
-        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
-        tags: ['React', 'CSS', 'Material Ui'],
+        projectName: 'QR Generator Scanner',
+        projectDesc: 'A web-based application designed for users to easily generate and scan QR codes, allowing to create and read QR codes for multiple purposes.',
+        tags: ['HTML', 'CSS', 'JavaScript'],
         code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: one
+        demo: 'https://qr-generator-scanner-five.vercel.app/',
+        image: qr
     },
     {
         id: 2,
-        projectName: 'Railway Tracking',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: two
+        projectName: 'ToDo-App',
+        projectDesc: 'A very simple task management application that allows users to add, manage, and track their daily tasks with ease.',
+        tags: ['React JS', 'Vite', 'CSS'],
+        code: 'https://github.com/CandyVelazco100/ToDo-App',
+        demo: 'https://to-do-app-eight-woad.vercel.app/',
+        image: tasks
     },
     {
         id: 3,
-        projectName: 'Weather App',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: three
+        projectName: 'BookNest',
+        projectDesc: 'UX/UI design aimed to create a seamless mobile app for eBook reading and progress tracking, with an intuitive interface that enhances the user experience and helps manage reading habits.',
+        tags: ['Figma', 'Material Ui'],
+        code: 'https://www.behance.net/gallery/209631573/BookNest-UIUX-Case-Study',
+        demo: 'https://www.figma.com/proto/XA4MXDhkkghWcAIVE7ZqfW/BookNest?node-id=22-693&node-type=canvas&t=jGAbig2qTeJrx6ju-1&scaling=min-zoom&content-scaling=fixed&page-id=22%3A105&starting-point-node-id=96%3A1281',
+        image: bookapp
     },
     {
         id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: four
+        projectName: 'Weather App',
+        projectDesc: 'React-based application that provides weather information in real time using the OpenWeatherMap API',
+        tags: ['HTML', 'JavaScript', 'CSS',],
+        code: 'https://github.com/CandyVelazco100/weatherApp',
+        demo: 'https://weather-app-beige-five.vercel.app/',
+        image: weather
     },
     {
         id: 5,
-        projectName: 'E-Commerce App',
-        projectDesc: 'A Simple E-commerce application',
-        tags: ['React Native', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: five
+        projectName: 'Password Generator',
+        projectDesc: 'Basic password generator with HTML, CSS and JS.',
+        tags: ['HTML', 'CSS', 'JavaScript'],
+        code: 'https://github.com/CandyVelazco100/passwordGenerator',
+        demo: 'https://password-generator-brown-omega.vercel.app/',
+        image: password
     },
-    {
+/*     {
         id: 6,
-        projectName: 'Uber Lite',
+        projectName: 'Fixer',
         projectDesc: 'Uber clone',
         tags: ['Flutter'],
         code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
         demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
         image: six
-    },
+    }, */
     {
         id: 7,
-        projectName: 'Stock Market App',
-        projectDesc: 'A simple stock market API app',
-        tags: ['React', 'Redux', 'Bootstrap'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: seven
+        projectName: 'Hamburguesería El Ronald',
+        projectDesc: 'Web application built from scratch that demonstrates essential web development techniques, creating a dynamic and responsive application.',
+        tags: ['HTML', 'Tailwind CSS', 'JavaScript'],
+        code: 'https://github.com/CandyVelazco100/HamburgueseriaElRonald',
+        demo: 'https://hamburgueseria-el-ronald.vercel.app/',
+        image: burger
     },
     {
         id: 8,
-        projectName: 'Car Pooling System',
-        projectDesc: 'The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution',
-        tags: ['Flutter', 'React'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: eight
+        projectName: 'Taylor Swift Lyrics Generator',
+        projectDesc: 'A simple random lyrics/quotes of Taylor Swift generator',
+        tags: ['React', 'Node JS'],
+        code: 'https://github.com/CandyVelazco100/TaylorSwift-LyricsGenerator',
+        demo: 'https://taylor-swift-lyrics-generator.vercel.app/',
+        image: music
     },
 ]
 

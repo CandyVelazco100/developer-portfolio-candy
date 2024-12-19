@@ -126,27 +126,32 @@ function Contacts() {
     const handleContactForm = (e) => {
         e.preventDefault();
 
-        axios.post(contactsData.sheetAPI, {
-            name: name,
-            email: email,
-            message: message,
-        })
-        .then((res) => {
-            console.log("success");
-            setSuccess(true);
-            setErrMsg("");
+        if (name && email && message) {
+            if (isEmail(email)) {
+                const responseData = {
+                    name: name,
+                    email: email,
+                    message: message,
+                };
 
-            setName("");
-            setEmail("");
-            setMessage("");
-            setOpen(false);
-        })
-        .catch((error) => {
-            console.error("Error al enviar el mensaje", error);
-            setErrMsg("Error al enviar el mensaje");
+                axios.post(contactsData.sheetAPI, responseData).then((res) => {
+                    console.log('success');
+                    setSuccess(true);
+                    setErrMsg('');
+
+                    setName('');
+                    setEmail('');
+                    setMessage('');
+                    setOpen(false);
+                });
+            } else {
+                setErrMsg('Invalid email');
+                setOpen(true);
+            }
+        } else {
+            setErrMsg('Enter all the fields');
             setOpen(true);
-        });
-
+        }
     };
 
     return (

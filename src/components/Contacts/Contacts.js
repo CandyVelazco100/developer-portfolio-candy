@@ -134,15 +134,19 @@ function Contacts() {
                     message: message,
                 };
 
-                axios.post(contactsData.sheetAPI, responseData).then((res) => {
-                    console.log('success');
+                axios.post(contactsData.sheetAPI, responseData)
+                .then((res) => {
                     setSuccess(true);
                     setErrMsg('');
-
                     setName('');
                     setEmail('');
                     setMessage('');
                     setOpen(false);
+                })
+                .catch((error) => {
+                    setErrMsg('Failed to send the message. Please try again later.');
+                    setOpen(true);
+                    console.error('Error sending message:', error);
                 });
             } else {
                 setErrMsg('Invalid email');

@@ -2,5 +2,5 @@ export const contactsData = {
     email: 'nohemivelazco3@gmail.com',
     phone: '+526863405845',
     address: 'Mexicali, Baja California - 21378 ',
-    sheetAPI: 'https://script.google.com/macros/s/AKfycbwN3ewv_FOhnt9qxmEvLeU-d49ZcVkDzZFIQF0cDIs5tmwUd1sT0giDQEwvUl7FBqP8gA/exec'
+    sheetAPI: 'https://script.google.com/macros/s/AKfycbzF_H9LHhWnf_JLSJi5N-p0gTd6y8a5FUj8J3xgG7NdMHGHak66src6NaT46DxFi_c4AQ/exec'
 }

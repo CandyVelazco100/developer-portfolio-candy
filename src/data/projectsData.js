@@ -19,15 +19,6 @@ export const projectsData = [
     },
     {
         id: 2,
-        projectName: 'ToDo-App',
-        projectDesc: 'A very simple task management application that allows users to add, manage, and track their daily tasks with ease.',
-        tags: ['React JS', 'Vite', 'CSS'],
-        code: 'https://github.com/CandyVelazco100/ToDo-App',
-        demo: 'https://to-do-app-eight-woad.vercel.app/',
-        image: tasks
-    },
-    {
-        id: 3,
         projectName: 'BookNest',
         projectDesc: 'UX/UI design aimed to create a seamless mobile app for eBook reading and progress tracking, with an intuitive interface that enhances the user experience and helps manage reading habits.',
         tags: ['Figma', 'Material Ui'],
@@ -36,13 +27,22 @@ export const projectsData = [
         image: bookapp
     },
     {
-        id: 4,
+        id: 3,
         projectName: 'Weather App',
         projectDesc: 'React-based application that provides weather information in real time using the OpenWeatherMap API',
         tags: ['HTML', 'JavaScript', 'CSS',],
         code: 'https://github.com/CandyVelazco100/weatherApp',
         demo: 'https://weather-app-beige-five.vercel.app/',
         image: weather
+    },
+    {
+        id: 4,
+        projectName: 'ToDo-App',
+        projectDesc: 'A very simple task management application that allows users to add, manage, and track their daily tasks with ease.',
+        tags: ['React JS', 'Vite', 'CSS'],
+        code: 'https://github.com/CandyVelazco100/ToDo-App',
+        demo: 'https://to-do-app-eight-woad.vercel.app/',
+        image: tasks
     },
     {
         id: 5,

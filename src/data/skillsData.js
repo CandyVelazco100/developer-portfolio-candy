@@ -25,6 +25,9 @@
     'Dart',
     'Canva',
     'Microsoft Office',
+    'Photoshop',
+    'Illustrator',
+    'Adobe XD',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

@@ -5,6 +5,7 @@ import weather from '../assets/svg/projects/weatherThunder.svg'
 import password from '../assets/svg/projects/password.svg'
 import burger from '../assets/svg/projects/burger.svg'
 import music from '../assets/svg/projects/music.svg'
+import book from '../assets/svg/projects/book.svg'
 
 
 export const projectsData = [
@@ -37,12 +38,12 @@ export const projectsData = [
     },
     {
         id: 4,
-        projectName: 'ToDo-App',
-        projectDesc: 'A very simple task management application that allows users to add, manage, and track their daily tasks with ease.',
-        tags: ['React JS', 'Vite', 'CSS'],
-        code: 'https://github.com/CandyVelazco100/ToDo-App',
-        demo: 'https://to-do-app-eight-woad.vercel.app/',
-        image: tasks
+        projectName: 'Goodreads Logo Redesign',
+        projectDesc: 'A redesign of the Goodreads logo, aimed at modernizing its visual identity while preserving the brand’s essence.',
+        tags: ['Adobe Illustrator', 'Figma',],
+        code: 'https://www.behance.net/gallery/215202893/GoodReads-Logo-Redesign',
+        demo: 'https://www.behance.net/gallery/215202893/GoodReads-Logo-Redesign',
+        image: book
     },
     {
         id: 5,
@@ -52,6 +53,15 @@ export const projectsData = [
         code: 'https://github.com/CandyVelazco100/passwordGenerator',
         demo: 'https://password-generator-brown-omega.vercel.app/',
         image: password
+    },
+    {
+        id: 6,
+        projectName: 'ToDo-App',
+        projectDesc: 'A very simple task management application that allows users to add, manage, and track their daily tasks with ease.',
+        tags: ['React JS', 'Vite', 'CSS'],
+        code: 'https://github.com/CandyVelazco100/ToDo-App',
+        demo: 'https://to-do-app-eight-woad.vercel.app/',
+        image: tasks
     },
 /*     {
         id: 6,

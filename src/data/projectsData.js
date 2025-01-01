@@ -32,7 +32,7 @@ export const projectsData = [
         projectName: 'Weather App',
         projectDesc: 'React-based application that provides weather information in real time using the OpenWeatherMap API',
         tags: ['HTML', 'JavaScript', 'CSS',],
-        code: 'https://github.com/CandyVelazco100/weatherApp',
+        code: 'https://git]hub.com/CandyVelazco100/weatherApp',
         demo: 'https://weather-app-beige-five.vercel.app/',
         image: weather
     },

@@ -3,7 +3,7 @@ export const achievementData = {
         {
             id : 1,
             title : 'Google Data Analytics Certificate',
-            details : 'his Certificate validates my proficiency in data analysis, demonstrating my ability to process, clean, and analyze data using tools like SQL, R, and spreadsheets. It highlights my expertise in creating data visualizations, generating insights, and supporting data-driven decision-making to solve business challenges.',
+            details : 'This certificate validates my skills in data analysis, showcasing expertise in using SQL, R, and spreadsheets to process, clean, visualize data, and generate actionable insights.',
             date : 'Jan 19, 2025',
             field : 'Data Analysis',
             image : 'https://cdn.shopaccino.com/igmguru/articles/Data-Analytics-Tutorial-1-900x558.jpg'

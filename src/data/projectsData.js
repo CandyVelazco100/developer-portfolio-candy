@@ -6,7 +6,7 @@ import password from '../assets/svg/projects/password.svg'
 import burger from '../assets/svg/projects/burger.svg'
 import music from '../assets/svg/projects/music.svg'
 import book from '../assets/svg/projects/book.svg'
-
+import web from '../assets/svg/projects/web.svg'
 
 export const projectsData = [
     {
@@ -29,15 +29,24 @@ export const projectsData = [
     },
     {
         id: 3,
+        projectName: 'Fixer MX Page',
+        projectDesc: 'UI redesign and full-stack development using Angular. Improved user experience with a modern and responsive interface.',
+        tags: ['Angular', 'HTML', 'JavaScript', 'CSS',],
+        code: 'https://github.com/CandyVelazco100/',
+        demo: 'https://fixermx.com/app-inicio',
+        image: web
+    },
+    {
+        id: 4,
         projectName: 'Weather App',
         projectDesc: 'React-based application that provides weather information in real time using the OpenWeatherMap API',
         tags: ['HTML', 'JavaScript', 'CSS',],
-        code: 'https://git]hub.com/CandyVelazco100/weatherApp',
+        code: 'https://github.com/CandyVelazco100/weatherApp',
         demo: 'https://weather-app-beige-five.vercel.app/',
         image: weather
     },
     {
-        id: 4,
+        id: 5,
         projectName: 'Goodreads Logo Redesign',
         projectDesc: 'A redesign of the Goodreads logo, aimed at modernizing its visual identity while preserving the brand’s essence.',
         tags: ['Adobe Illustrator', 'Figma',],
@@ -46,7 +55,7 @@ export const projectsData = [
         image: book
     },
     {
-        id: 5,
+        id: 6,
         projectName: 'Password Generator',
         projectDesc: 'Basic password generator with HTML, CSS and JS.',
         tags: ['HTML', 'CSS', 'JavaScript'],
@@ -55,7 +64,7 @@ export const projectsData = [
         image: password
     },
     {
-        id: 6,
+        id: 7,
         projectName: 'ToDo-App',
         projectDesc: 'A very simple task management application that allows users to add, manage, and track their daily tasks with ease.',
         tags: ['React JS', 'Vite', 'CSS'],
@@ -73,7 +82,7 @@ export const projectsData = [
         image: six
     }, */
     {
-        id: 7,
+        id: 8,
         projectName: 'Hamburguesería El Ronald',
         projectDesc: 'Web application built from scratch that demonstrates essential web development techniques, creating a dynamic and responsive application.',
         tags: ['HTML', 'Tailwind CSS', 'JavaScript'],
@@ -82,7 +91,7 @@ export const projectsData = [
         image: burger
     },
     {
-        id: 8,
+        id: 9,
         projectName: 'Taylor Swift Lyrics Generator',
         projectDesc: 'A simple random lyrics/quotes of Taylor Swift generator',
         tags: ['React', 'Node JS'],

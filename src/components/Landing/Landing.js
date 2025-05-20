@@ -136,7 +136,7 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.Kaggle && (
+                        {socialsData.kaggle && (
                             <a
                                 href={socialsData.Kaggle}
                                 target='_blank'

@@ -7,16 +7,19 @@ import burger from '../assets/svg/projects/burger.svg'
 import music from '../assets/svg/projects/music.svg'
 import book from '../assets/svg/projects/book.svg'
 import web from '../assets/svg/projects/web.svg'
+import education from '../assets/svg/projects/education.svg'
+import spotify from '../assets/svg/projects/spotify.svg'
+import life from '../assets/svg/projects/life.svg'
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'QR Generator Scanner',
-        projectDesc: 'A web-based application designed for users to easily generate and scan QR codes, allowing to create and read QR codes for multiple purposes.',
-        tags: ['HTML', 'CSS', 'JavaScript'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://qr-generator-scanner-five.vercel.app/',
-        image: qr
+        projectName: 'Education & Career Success Analysis',
+        projectDesc: 'Data analysis project using Python and Pandas to analyze the impact of education on career success.',
+        tags: ['Python', 'Pandas', 'Data Cleaning', 'Data Visualization'],
+        code: 'https://www.kaggle.com/code/nohemivelazco/education-career-success-analysis',
+        demo: 'https://www.kaggle.com/code/nohemivelazco/education-career-success-analysis',
+        image: education
     },
     {
         id: 2,
@@ -38,6 +41,33 @@ export const projectsData = [
     },
     {
         id: 4,
+        projectName: 'QR Generator Scanner',
+        projectDesc: 'A web-based application designed for users to easily generate and scan QR codes, allowing to create and read QR codes for multiple purposes.',
+        tags: ['HTML', 'CSS', 'JavaScript'],
+        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        demo: 'https://qr-generator-scanner-five.vercel.app/',
+        image: qr
+    },
+    {
+        id: 4,
+        projectName: 'Spotify Streaming Data Analysis',
+        projectDesc: 'Data analysis project using Python and Pandas to analyze Spotify streaming data, providing insights into user behavior and music trends.',
+        tags: ['Python', 'Pandas', 'Data Cleaning', 'Data Visualization'],
+        code: 'https://www.kaggle.com/code/nohemivelazco/spotify-streaming-data-analysis',
+        demo: 'https://www.kaggle.com/code/nohemivelazco/spotify-streaming-data-analysis',
+        image: spotify
+    },
+    {
+        id: 4,
+        projectName: 'Life and Death',
+        projectDesc: 'Data analysis project performs data loading, cleaning, optimization, and visualization on a dataset related to life and death statistics.',
+        tags: ['Python', 'Pandas', 'Data Cleaning', 'Data Visualization', 'Seaborn'],
+        code: 'https://www.kaggle.com/code/nohemivelazco/life-and-death',
+        demo: 'https://www.kaggle.com/code/nohemivelazco/life-and-death',
+        image: life
+    },
+    {
+        id: 5,
         projectName: 'Weather App',
         projectDesc: 'React-based application that provides weather information in real time using the OpenWeatherMap API',
         tags: ['HTML', 'JavaScript', 'CSS',],

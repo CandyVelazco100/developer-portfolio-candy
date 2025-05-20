@@ -135,6 +135,19 @@ function Landing() {
                                 />
                             </a>
                         )}
+                        {socialsData.Kaggle && (
+                            <a
+                                href={socialsData.Kaggle}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaKaggle
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='YouTube'
+                                />
+                            </a>
+                        )}
                     </div>
                 </div>
                 <img

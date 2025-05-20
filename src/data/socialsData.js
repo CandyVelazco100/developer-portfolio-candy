@@ -12,5 +12,6 @@ export const socialsData = {
     medium: 'https://medium.com/@',
     stackOverflow: 'https://stackoverflow.com/users/',
     gitlab: 'https://gitlab.com/',
-    youtube: 'https://youtube.com/'
+    youtube: 'https://youtube.com/',
+    kaggle: 'https://www.kaggle.com/nohemivelazco'
 }

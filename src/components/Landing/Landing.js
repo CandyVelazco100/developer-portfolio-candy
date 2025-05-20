@@ -13,6 +13,7 @@ import {
     FaGithub,
     FaBehance,
     FaDribbble,
+    FaKaggle
 } from 'react-icons/fa';
 
 /**

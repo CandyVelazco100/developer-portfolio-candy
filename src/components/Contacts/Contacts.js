@@ -9,6 +9,7 @@ import {
     FaGithub,
     FaBehance,
     FaDribbble,
+    FaKaggle,
     /* FaStackOverflow, */
 } from 'react-icons/fa';
 import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
@@ -349,6 +350,16 @@ function Contacts() {
                                     className={classes.socialIcon}
                                 >
                                     <FaDribbble aria-label='Dribble' />
+                                </a>
+                            )}
+                            {socialsData.kaggle && (
+                                <a
+                                    href={socialsData.kaggle}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <FaKaggle aria-label='Kaggle' />
                                 </a>
                             )}
                         </div>

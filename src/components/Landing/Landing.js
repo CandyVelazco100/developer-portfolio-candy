@@ -138,7 +138,7 @@ function Landing() {
                         )}
                         {socialsData.kaggle && (
                             <a
-                                href={socialsData.Kaggle}
+                                href={socialsData.kaggle}
                                 target='_blank'
                                 rel='noreferrer'
                             >

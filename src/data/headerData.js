@@ -1,4 +1,4 @@
-import resume from '../assets/pdf/CV - Candy Velazco.pdf'
+import resume from '../assets/pdf/CV.pdf'
 import image from '../assets/jpg/NewPhoto.jpg'
 
 export const headerData = {

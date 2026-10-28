@@ -10,6 +10,7 @@ import web from '../assets/svg/projects/web.svg'
 import education from '../assets/svg/projects/education.svg'
 import spotify from '../assets/svg/projects/spotify.svg'
 import life from '../assets/svg/projects/life.svg'
+import webpage from '../assets/svg/projects/webpage.svg'
 
 export const projectsData = [
         {

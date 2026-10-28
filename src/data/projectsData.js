@@ -12,6 +12,15 @@ import spotify from '../assets/svg/projects/spotify.svg'
 import life from '../assets/svg/projects/life.svg'
 
 export const projectsData = [
+        {
+        id: 1,
+        projectName: 'Nohemi Velazco - Creative Studio Webpage',
+        projectDesc: 'A responsive website for a creative studio, showcasing portfolio work and services.',
+        tags: ['HTML', 'CSS', 'JavaScript'],
+        code: 'https://creativestudio-ebon.vercel.app/',
+        demo: 'https://creativestudio-ebon.vercel.app/',
+        image: webpage
+    },
     {
         id: 1,
         projectName: 'Education & Career Success Analysis',

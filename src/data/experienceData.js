@@ -1,8 +1,8 @@
 export const experienceData = [
 {
         id: 1,
-        company: 'Founder and Creative Designer',
-        jobtitle: 'Nohemi Velazco - Creative Studio',
+        company: 'Nohemi Velazco - Creative Studio',
+        jobtitle: 'Founder and Creative Designer',
         startYear: 'July 2026',
         endYear: ''
     },
